@@ -19,7 +19,6 @@ The type will be “success” on success and something else when something went
 Fetching a random joke
 
 URL: http://api.icndb.com/jokes/random
-Result:
 
 ```Json 
 { "type": "success", "value": { "id": , "joke": } }
