@@ -8,7 +8,7 @@ Use HTTP GET to retrieve what you want (read on below for more details). Results
 JSON
 In the default case, the result will always look like this:
 ```Json 
-{ "type": ..., "value": ... }
+{ "type": ... , "value": ... }
 ``` 
 
 The type will be “success” on success and something else when something went wrong (more details below). An example of the result of a successful request:
@@ -21,7 +21,6 @@ Fetching a random joke
 URL: http://api.icndb.com/jokes/random
 Result:
 
-JavaScript
 ```Json 
 { "type": "success", "value": { "id": , "joke": } }
 ```
